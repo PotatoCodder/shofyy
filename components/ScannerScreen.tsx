@@ -1,12 +1,12 @@
-// app/index.tsx
-import { CameraScanner } from '@/components/CameraScanner';
+// screens/ScannerScreen.tsx
 import React from 'react';
 import { Alert, StyleSheet, Text, View } from 'react-native';
+import { CameraScanner } from '../components/CameraScanner';
 
-export default function Index() {
+export default function ScannerScreen() {
   const handleScan = (data: string) => {
     Alert.alert('Scanned QR Code', data);
-    // navigation after the qrcode scanned HEHE
+    // You can also navigate or handle logic here
   };
 
   return (
