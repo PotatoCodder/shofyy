@@ -1,7 +1,7 @@
 // screens/ScannerScreen.tsx
 import React from 'react';
 import { Alert, StyleSheet, Text, View } from 'react-native';
-import { CameraScanner } from '../components/CameraScanner';
+import { CameraScanner } from './CameraScanner';
 
 export default function ScannerScreen() {
   const handleScan = (data: string) => {
